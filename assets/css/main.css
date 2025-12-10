@@ -2515,3 +2515,20 @@ section,
   color: #0056b3 !important;
 }
 
+#navmenu {
+  overflow-x: auto;     
+  white-space: nowrap;
+  padding: 20px;
+  margin-left: 100px;
+}    
+
+#navmenu ul {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+#navmenu ul::-webkit-scrollbar{
+  display:none;
+}
